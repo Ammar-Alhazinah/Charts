@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".BioAuthenticationActivity">
 
     <TextView
@@ -15,7 +16,7 @@
         android:textSize="30sp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/nunitosemibold"
-        android:text="Finger Print" />
+        android:text="@string/finger_print" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/fpanimation"
@@ -25,4 +26,24 @@
         android:scaleType="fitCenter"
         android:layout_marginTop="50dp"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/openWithpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitoregular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:text="@string/click_here_to_open_with_password"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
 </LinearLayout>

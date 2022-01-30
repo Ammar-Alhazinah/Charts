@@ -3,4 +3,8 @@
     <string name="bar_chart">Bar Chart</string>
     <string name="pie_chart">Pie Chart</string>
     <string name="rader_chart">Radar Chart</string>
+    <string name="finger_print">Finger Print</string>
+    <string name="click_here_to_open_with_password">Click here to open with password.</string>
+    <string name="enter_your_password">Enter your password:</string>
+    <string name="login">Login</string>
 </resources>
